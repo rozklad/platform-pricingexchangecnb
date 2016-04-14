@@ -10,7 +10,7 @@ class CNBServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		// Register the attributes namespace
-		$this->app['sanatorium.shoppricing.exchange']->registerService(
+		$this->app['sanatorium.pricing.exchange']->registerService(
 			$this->app['Sanatorium\Pricingexchangecnb\Controllers\Services\CNBExchangesController']
 		);
 	}

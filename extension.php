@@ -84,7 +84,7 @@ return [
 	*/
 
 	'require' => [
-		'sanatorium/shoppricing',
+		'sanatorium/pricing',
 	],
 
 	/*
@@ -258,7 +258,7 @@ return [
 
 		],
 
-		'admin-sanatorium-shoppricing' => [
+		'admin-sanatorium-pricing' => [
 		
 			[
 				'slug'  => 'admin-sanatorium-pricingexchangecnb',

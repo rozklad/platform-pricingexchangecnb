@@ -1,8 +1,8 @@
 <?php namespace Sanatorium\Pricingexchangecnb\Controllers\Services;
 
-use Sanatorium\Shoppricing\Models\Currency;
-use Sanatorium\Shoppricing\Repositories\Currency\CurrencyRepositoryInterface;
-use Sanatorium\Shoppricing\Controllers\Services\ExchangeController;
+use Sanatorium\Pricing\Models\Currency;
+use Sanatorium\Pricing\Repositories\Currency\CurrencyRepositoryInterface;
+use Sanatorium\Pricing\Controllers\Services\ExchangeController;
 
 class CNBExchangesController extends ExchangeController {
 
